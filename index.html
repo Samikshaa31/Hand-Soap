@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liquid Soap — Smart, Safe & Scientific Cleaning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="bubble-ring">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <p class="preloader-text">Preparing your chemistry lab...</p>
+    </div>
+  </div>
+
+  <!-- FLOATING BUBBLES BG -->
+  <div class="bg-bubbles" id="bgBubbles"></div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-logo">🧪 LiquidSoap</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#chemicals" class="nav-link">Chemicals</a></li>
+      <li><a href="#procedure" class="nav-link">Procedure</a></li>
+      <li><a href="#reactionlab" class="nav-link">Lab Anim</a></li>
+      <li><a href="#flowdiagram" class="nav-link">Flow Diagram</a></li>
+      <li><a href="#advantages" class="nav-link">Analysis</a></li>
+      <li><a href="#quiz" class="nav-link">Quiz</a></li>
+      <li><a href="#feedback" class="nav-link">Feedback</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
+    <button class="hamburger" id="hamburger">☰</button>
+  </nav>
+
+  <!-- ===== SECTION 1: HOME ===== -->
+<section id="home" class="section hero-section home-bg">
+      <div class="hero-content">
+      <div class="hero-badge reveal">🔬 Chemical proto 2026</div>
+      <h1 class="hero-title reveal">
+        Liquid Soap<br />
+        <span class="gradient-text">Smart. Safe. Scientific.</span>
+      </h1>
+      <p class="hero-subtitle reveal">
+        An in-depth exploration of saponification — transforming raw chemicals into effective, eco-friendly liquid soap through controlled chemistry.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#chemicals" class="btn-primary">Explore Project</a>
+        <a href="#procedure" class="btn-ghost">View Procedure</a>
+      </div>
+
+      <!-- Team Members -->
+<<section class="team-section">
+  <h2>Our Team</h2>
+
+  <div class="team-container">
+
+    <div class="team-card">
+      <img src="samiksha.jpeg" alt="Samiksha">
+      <h3>Samiksha Atirkar</h3>
+      <p>Roll No: 47</p>
+      <p>PRN: 202401040072</p>
+    </div>
+
+    <div class="team-card">
+      <img src="disha.jpeg" alt="Disha">
+      <h3>Disha Patil</h3>
+      <p>Roll No: 39</p>
+      <p>PRN: 202401040062</p>
+    </div>
+
+    <div class="team-card">
+      <img src="saloni.jpeg" alt="Saloni">
+      <h3>Saloni Jadhav</h3>
+      <p>Roll No: 41</p>
+      <p>PRN: 202401040064</p>
+    </div>
+
+    <div class="team-card">
+      <img src="sakshi.jpeg" alt="Sakshi">
+      <h3>Sakshi Pawar</h3>
+      <p>Roll No: 52</p>
+      <p>PRN: 202401040080</p>
+    </div>
+
+  </div>
+</section>
+    <!-- Floating stats -->
+    <div class="hero-stats reveal">
+      <div class="stat-pill">🧴 7 Chemicals</div>
+      <div class="stat-pill">⚗️ 9 Steps</div>
+      <div class="stat-pill">🌿 Eco-Friendly</div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 2: CHEMICALS ===== -->
+  <section id="chemicals" class="section">
+    <div class="section-header reveal">
+      <span class="section-tag">Lab Materials</span>
+      <h2>Chemicals Used</h2>
+      <p>Seven carefully selected ingredients form the backbone of our liquid soap formulation.</p>
+    </div>
+
+    <div class="chemicals-grid">
+      <div class="chem-card reveal" style="--delay:0.1s">
+        <div class="chem-icon">🛢️</div>
+        <h3>Castor Oil</h3>
+        <div class="chem-qty">10 mL</div>
+        <p>Primary base oil — provides moisturizing fatty acids (ricinoleic acid) and gives soap its viscosity and skin-conditioning properties.</p>
+        <div class="chem-tag">Base Oil</div>
+      </div>
+      <div class="chem-card reveal" style="--delay:0.2s">
+        <div class="chem-icon">🧂</div>
+        <h3>Sodium Chloride</h3>
+        <div class="chem-qty">2.5 g</div>
+        <p>Common salt — acts as a thickening agent, adjusting the viscosity and texture of the final liquid soap product.</p>
+        <div class="chem-tag">Thickener</div>
+      </div>
+      <div class="chem-card reveal" style="--delay:0.3s">
+        <div class="chem-icon">⚗️</div>
+        <h3>Sodium Hydroxide</h3>
+        <div class="chem-qty">2.5 g</div>
+        <p>Strong alkali (lye) — essential for saponification reaction, converts fatty acids in oil into soap molecules.</p>
+        <div class="chem-tag danger-tag">⚠️ Corrosive</div>
+      </div>
+      <div class="chem-card reveal" style="--delay:0.4s">
+        <div class="chem-icon">🔬</div>
+        <h3>Sodium Carbonate</h3>
+        <div class="chem-qty">2.5 g</div>
+        <p>Washing soda — softens water, boosts cleaning power, and helps regulate the pH of the soap solution.</p>
+        <div class="chem-tag">pH Regulator</div>
+      </div>
+      <div class="chem-card reveal" style="--delay:0.5s">
+        <div class="chem-icon">💧</div>
+        <h3>Distilled Water</h3>
+        <div class="chem-qty">20 mL</div>
+        <p>Pure solvent — used to dissolve alkali and dilute the reaction mixture without introducing impurities.</p>
+        <div class="chem-tag">Solvent</div>
+      </div>
+      <div class="chem-card reveal" style="--delay:0.6s">
+        <div class="chem-icon">🍶</div>
+        <h3>Ethanol</h3>
+        <div class="chem-qty">10 mL</div>
+        <p>Alcohol solvent — helps dissolve the oil and alkali together, facilitating the saponification process.</p>
+        <div class="chem-tag warning-tag">⚠️ Flammable</div>
+      </div>
+      <div class="chem-card reveal" style="--delay:0.7s">
+        <div class="chem-icon">🥄</div>
+        <h3>Sodium Bicarbonate</h3>
+        <div class="chem-qty">2.5 g</div>
+        <p>Baking soda — mild alkali that balances pH, adds mild antiseptic properties and improves lathering.</p>
+        <div class="chem-tag">Lather Booster</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 3: PROCEDURE ===== -->
+  <section id="procedure" class="section">
+    <div class="section-header reveal">
+      <span class="section-tag">Experiment</span>
+      <h2>Step-by-Step Procedure</h2>
+      <p>Follow each step carefully — precision is key in soap chemistry.</p>
+    </div>
+
+    <!-- Safety Warning -->
+    <div class="safety-box reveal">
+      <div class="safety-icon">⚠️</div>
+      <div>
+        <h4>Safety Precautions</h4>
+        <ul>
+          <li>Always wear gloves and goggles when handling NaOH</li>
+          <li>Add NaOH to water — NEVER water to NaOH (can cause violent reaction)</li>
+          <li>Work in a well-ventilated area — ethanol is flammable</li>
+          <li>Keep a first-aid kit and eye wash nearby</li>
+          <li>Do not inhale chemical fumes directly</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-step reveal" style="--delay:0.1s">
+        <div class="step-num">01</div>
+        <div class="step-body">
+          <h3>Measure Castor Oil</h3>
+          <p>Using a measuring cylinder, carefully measure 10 mL of castor oil into a clean glass beaker. Castor oil is our primary fatty acid source.</p>
+          <div class="step-icon-wrap">🛢️</div>
+        </div>
+      </div>
+      <div class="timeline-step reveal" style="--delay:0.2s">
+        <div class="step-num">02</div>
+        <div class="step-body">
+          <h3>Add Ethanol</h3>
+          <p>Add 10 mL of ethanol to the castor oil. Ethanol acts as a co-solvent, helping the oil and alkali mix uniformly. Stir gently.</p>
+          <div class="step-icon-wrap">🍶</div>
+        </div>
+      </div>
+      <div class="timeline-step reveal" style="--delay:0.3s">
+        <div class="step-num">03</div>
+        <div class="step-body">
+          <h3>Prepare NaOH Solution</h3>
+          <p>In a separate container, carefully dissolve 2.5 g of NaOH in 10 mL distilled water. This is exothermic — solution will heat up. Allow to cool slightly.</p>
+          <div class="step-icon-wrap">⚗️</div>
+        </div>
+      </div>
+      <div class="timeline-step reveal" style="--delay:0.4s">
+        <div class="step-num">04</div>
+        <div class="step-body">
+          <h3>Slowly Add NaOH Solution</h3>
+          <p>Drop-by-drop, add the prepared NaOH solution to the oil-ethanol mixture while stirring continuously. This initiates saponification.</p>
+          <div class="step-icon-wrap">💧</div>
+        </div>
+      </div>
+      <div class="timeline-step reveal" style="--delay:0.5s">
+        <div class="step-num">05</div>
+        <div class="step-body">
+          <h3>Add Na₂CO₃ and NaHCO₃</h3>
+          <p>Add 2.5 g each of sodium carbonate and sodium bicarbonate to the mixture. These regulate pH and improve foaming properties.</p>
+          <div class="step-icon-wrap">🔬</div>
+        </div>
+      </div>
+      <div class="timeline-step reveal" style="--delay:0.6s">
+        <div class="step-num">06</div>
+        <div class="step-body">
+          <h3>Heat and Stir</h3>
+          <p>Gently heat the mixture on a water bath (60–70°C) while stirring for 15–20 minutes. Heat accelerates the saponification reaction. Do not boil.</p>
+          <div class="step-icon-wrap">🔥</div>
+        </div>
+      </div>
+      <div class="timeline-step reveal" style="--delay:0.7s">
+        <div class="step-num">07</div>
+        <div class="step-body">
+          <h3>Add Sodium Chloride</h3>
+          <p>Add 2.5 g of NaCl (dissolved in remaining 10 mL water) to the heated mixture. Salt causes the soap to separate and increases viscosity.</p>
+          <div class="step-icon-wrap">🧂</div>
+        </div>
+      </div>
+      <div class="timeline-step reveal" style="--delay:0.8s">
+        <div class="step-num">08</div>
+        <div class="step-body">
+          <h3>Stir Until Thickened</h3>
+          <p>Continue stirring as the mixture thickens into a homogeneous gel-like consistency. The soap is forming as fatty acid chains bond with sodium ions.</p>
+          <div class="step-icon-wrap">🥄</div>
+        </div>
+      </div>
+      <div class="timeline-step reveal" style="--delay:0.9s">
+        <div class="step-num">09</div>
+        <div class="step-body">
+          <h3>Cool & Collect Liquid Soap</h3>
+          <p>Remove from heat, allow to cool to room temperature. Filter if needed. Transfer to a clean dispenser bottle. Your liquid soap is ready!</p>
+          <div class="step-icon-wrap">🧴</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 3B: ANIMATED REACTION LAB ===== -->
+  <section id="reactionlab" class="section">
+    <div class="section-header reveal">
+      <span class="section-tag">Live Animation</span>
+      <h2>Reaction Lab — Watch It Happen</h2>
+      <p>An animated step-by-step visualization of the saponification process.</p>
+    </div>
+
+    <div class="lab-stage reveal">
+      <!-- Step selector tabs -->
+      <div class="lab-tabs">
+        <button class="lab-tab active" data-step="0">① Mix Oil + Ethanol</button>
+        <button class="lab-tab" data-step="1">② Add NaOH</button>
+        <button class="lab-tab" data-step="2">③ Add Salts</button>
+        <button class="lab-tab" data-step="3">④ Heat &amp; Stir</button>
+        <button class="lab-tab" data-step="4">⑤ Add NaCl</button>
+        <button class="lab-tab" data-step="5">⑥ Cool &amp; Filter</button>
+        <button class="lab-tab" data-step="6">⑦ Liquid Soap!</button>
+      </div>
+
+      <!-- Main lab canvas -->
+      <div class="lab-canvas">
+
+        <!-- === STEP 0: Mix Oil + Ethanol === -->
+        <div class="lab-scene active" id="scene-0">
+          <div class="lab-desc">
+            <h3>Step 1 — Mix Castor Oil &amp; Ethanol</h3>
+            <p>Pour <strong>10 mL Castor Oil</strong> and <strong>10 mL Ethanol</strong> into a beaker. Ethanol helps dissolve the oil uniformly.</p>
+          </div>
+          <div class="lab-visual">
+            <!-- Bottle 1: Oil -->
+            <div class="bottle-wrap">
+              <div class="bottle oil-bottle pouring" id="oilBottle">
+                <div class="bottle-cap"></div>
+                <div class="bottle-body">
+                  <div class="bottle-liquid oil-liquid"></div>
+                  <span class="bottle-label">Castor Oil<br/>10 mL</span>
+                </div>
+              </div>
+              <div class="pour-stream oil-stream" id="oilStream"></div>
+            </div>
+            <!-- Bottle 2: Ethanol -->
+            <div class="bottle-wrap">
+              <div class="bottle eth-bottle pouring" id="ethBottle">
+                <div class="bottle-cap"></div>
+                <div class="bottle-body">
+                  <div class="bottle-liquid eth-liquid"></div>
+                  <span class="bottle-label">Ethanol<br/>10 mL</span>
+                </div>
+              </div>
+              <div class="pour-stream eth-stream" id="ethStream"></div>
+            </div>
+            <!-- Main Beaker -->
+            <div class="beaker-wrap">
+              <div class="beaker" id="mainBeaker0">
+                <div class="beaker-liquid mix-liquid-0">
+                  <div class="bubble-layer">
+                    <span class="bub"></span><span class="bub"></span><span class="bub"></span>
+                  </div>
+                </div>
+                <div class="beaker-label">Mixing Beaker</div>
+              </div>
+              <div class="stir-rod" id="stirRod0"></div>
+            </div>
+          </div>
+          <div class="reaction-equation">
+            <span class="eq-part">Castor Oil</span>
+            <span class="eq-plus">+</span>
+            <span class="eq-part">C₂H₅OH</span>
+            <span class="eq-arrow">→</span>
+            <span class="eq-result">Homogeneous Oil Solution</span>
+          </div>
+        </div>
+
+        <!-- === STEP 1: Add NaOH === -->
+        <div class="lab-scene" id="scene-1">
+          <div class="lab-desc">
+            <h3>Step 2 — Add NaOH Solution</h3>
+            <p>Dissolve <strong>2.5 g NaOH</strong> in <strong>10 mL distilled water</strong>. Slowly drip into the oil mixture. Saponification begins! ⚠️ Exothermic</p>
+          </div>
+          <div class="lab-visual">
+            <div class="bottle-wrap">
+              <div class="bottle naoh-bottle dripping" id="naohBottle">
+                <div class="bottle-cap"></div>
+                <div class="bottle-body">
+                  <div class="bottle-liquid naoh-liquid"></div>
+                  <span class="bottle-label">NaOH<br/>2.5 g</span>
+                </div>
+              </div>
+              <div class="drip-container" id="naohDrips"></div>
+            </div>
+            <div class="beaker-wrap">
+              <div class="beaker beaker-reacting" id="mainBeaker1">
+                <div class="beaker-liquid mix-liquid-1">
+                  <div class="bubble-layer bubble-active">
+                    <span class="bub"></span><span class="bub"></span><span class="bub"></span><span class="bub"></span><span class="bub"></span>
+                  </div>
+                </div>
+                <div class="heat-waves" id="heatWaves1">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="beaker-label">Saponification Starting</div>
+              </div>
+            </div>
+          </div>
+          <div class="reaction-equation">
+            <span class="eq-part">Oil</span>
+            <span class="eq-plus">+</span>
+            <span class="eq-part highlight-eq">NaOH</span>
+            <span class="eq-arrow">→</span>
+            <span class="eq-result">Soap + Glycerol</span>
+          </div>
+        </div>
+
+        <!-- === STEP 2: Add Salts === -->
+        <div class="lab-scene" id="scene-2">
+          <div class="lab-desc">
+            <h3>Step 3 — Add Na₂CO₃ &amp; NaHCO₃</h3>
+            <p>Add <strong>2.5 g Na₂CO₃</strong> and <strong>2.5 g NaHCO₃</strong>. These regulate the pH and boost lathering power.</p>
+          </div>
+          <div class="lab-visual">
+            <div class="salt-shaker-wrap">
+              <div class="salt-shaker" id="saltShaker1">
+                <div class="shaker-body na2co3-color">
+                  <span class="shaker-label">Na₂CO₃</span>
+                </div>
+                <div class="salt-particles" id="saltP1"></div>
+              </div>
+              <div class="salt-shaker" id="saltShaker2">
+                <div class="shaker-body nahco3-color">
+                  <span class="shaker-label">NaHCO₃</span>
+                </div>
+                <div class="salt-particles" id="saltP2"></div>
+              </div>
+            </div>
+            <div class="beaker-wrap">
+              <div class="beaker" id="mainBeaker2">
+                <div class="beaker-liquid mix-liquid-2">
+                  <div class="bubble-layer bubble-active">
+                    <span class="bub"></span><span class="bub"></span><span class="bub"></span>
+                  </div>
+                </div>
+                <div class="foam-layer" id="foamLayer"></div>
+                <div class="beaker-label">pH Adjusting</div>
+              </div>
+            </div>
+          </div>
+          <div class="reaction-equation">
+            <span class="eq-part highlight-eq">Na₂CO₃</span>
+            <span class="eq-plus">+</span>
+            <span class="eq-part highlight-eq">NaHCO₃</span>
+            <span class="eq-arrow">→</span>
+            <span class="eq-result">pH Balanced Mixture</span>
+          </div>
+        </div>
+
+        <!-- === STEP 3: Heat & Stir === -->
+        <div class="lab-scene" id="scene-3">
+          <div class="lab-desc">
+            <h3>Step 4 — Heat &amp; Stir (60–70°C)</h3>
+            <p>Place on a <strong>water bath</strong>. Heat at 60–70°C for 15–20 min while stirring continuously. The saponification reaction completes here.</p>
+          </div>
+          <div class="lab-visual heating-visual">
+            <!-- Tripod + Burner -->
+            <div class="burner-setup">
+              <div class="burner-base"></div>
+              <div class="burner-ring"></div>
+              <div class="flame-wrap" id="flameWrap">
+                <div class="flame flame-outer"></div>
+                <div class="flame flame-mid"></div>
+                <div class="flame flame-inner"></div>
+                <div class="flame flame-core"></div>
+              </div>
+              <div class="tripod">
+                <div class="tripod-leg"></div>
+                <div class="tripod-leg"></div>
+                <div class="tripod-leg"></div>
+                <div class="tripod-wire"></div>
+              </div>
+              <div class="beaker-on-tripod">
+                <div class="beaker beaker-hot" id="mainBeaker3">
+                  <div class="beaker-liquid mix-liquid-3 boiling">
+                    <div class="bubble-layer bubble-boil">
+                      <span class="bub"></span><span class="bub"></span><span class="bub"></span><span class="bub"></span>
+                    </div>
+                  </div>
+                  <div class="steam-wrap" id="steamWrap">
+                    <div class="steam"></div><div class="steam"></div><div class="steam"></div>
+                  </div>
+                </div>
+                <div class="stirrer-animated" id="stirrerAnim">
+                  <div class="stirrer-rod"></div>
+                </div>
+              </div>
+            </div>
+            <div class="temp-gauge">
+              <div class="gauge-label">Temperature</div>
+              <div class="gauge-bar"><div class="gauge-fill" id="gaugeFill"></div></div>
+              <div class="gauge-val" id="gaugeVal">65°C</div>
+            </div>
+          </div>
+          <div class="reaction-equation">
+            <span class="eq-part">Oil + NaOH</span>
+            <span class="eq-arrow heat-arrow">🔥→</span>
+            <span class="eq-result glow-eq">Soap Molecules Forming!</span>
+          </div>
+        </div>
+
+        <!-- === STEP 4: Add NaCl === -->
+        <div class="lab-scene" id="scene-4">
+          <div class="lab-desc">
+            <h3>Step 5 — Add NaCl (Salt)</h3>
+            <p>Add <strong>2.5 g NaCl</strong> dissolved in water. Salt causes the soap to "salt out" — separating and thickening the solution.</p>
+          </div>
+          <div class="lab-visual">
+            <div class="salt-shaker-wrap">
+              <div class="salt-shaker nacl-shaker" id="naclShaker">
+                <div class="shaker-body nacl-color">
+                  <span class="shaker-label">NaCl<br/>2.5 g</span>
+                </div>
+                <div class="salt-particles" id="naclP"></div>
+              </div>
+            </div>
+            <div class="beaker-wrap">
+              <div class="beaker" id="mainBeaker4">
+                <div class="beaker-liquid mix-liquid-4 thickening">
+                  <div class="bubble-layer">
+                    <span class="bub"></span><span class="bub"></span>
+                  </div>
+                  <div class="thick-lines">
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+                <div class="beaker-label">Soap Thickening...</div>
+              </div>
+              <div class="stir-rod stir-active" id="stirRod4"></div>
+            </div>
+          </div>
+          <div class="reaction-equation">
+            <span class="eq-part highlight-eq">NaCl</span>
+            <span class="eq-arrow">→</span>
+            <span class="eq-result">Salting Out Effect → Thicker Soap</span>
+          </div>
+        </div>
+
+        <!-- === STEP 5: Cool & Filter === -->
+        <div class="lab-scene" id="scene-5">
+          <div class="lab-desc">
+            <h3>Step 6 — Cool &amp; Filter</h3>
+            <p>Remove from heat. Let it <strong>cool to room temperature</strong>. Pour through a filter funnel to remove any impurities.</p>
+          </div>
+          <div class="lab-visual">
+            <div class="cooling-setup">
+              <div class="beaker cool-beaker" id="mainBeaker5">
+                <div class="beaker-liquid mix-liquid-5">
+                  <div class="cool-waves">
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+                <div class="cold-aura"></div>
+                <div class="beaker-label">Cooling Down</div>
+              </div>
+              <div class="arrow-flow">→</div>
+              <div class="funnel-wrap">
+                <div class="funnel-top"></div>
+                <div class="funnel-stem"></div>
+                <div class="filter-drip" id="filterDrip">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="funnel-label">Filter</div>
+              </div>
+              <div class="arrow-flow">→</div>
+              <div class="collection-beaker">
+                <div class="beaker">
+                  <div class="beaker-liquid final-liquid">
+                    <div class="bubble-layer"><span class="bub"></span></div>
+                  </div>
+                  <div class="beaker-label">Filtered</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reaction-equation">
+            <span class="eq-part">Hot Mixture</span>
+            <span class="eq-arrow">→ Cool →</span>
+            <span class="eq-part">Filter</span>
+            <span class="eq-arrow">→</span>
+            <span class="eq-result">Pure Liquid Soap</span>
+          </div>
+        </div>
+
+        <!-- === STEP 6: Final Product === -->
+        <div class="lab-scene" id="scene-6">
+          <div class="lab-desc">
+            <h3>🎉 Final Product — Liquid Soap!</h3>
+            <p>The liquid soap is ready! Smooth, effective, eco-friendly, and skin-safe. Pour into a dispenser bottle and use!</p>
+          </div>
+          <div class="lab-visual final-visual">
+            <div class="soap-bottle-final" id="soapBottleFinal">
+              <div class="soap-dispenser">
+                <div class="dispenser-pump"></div>
+                <div class="dispenser-neck"></div>
+                <div class="dispenser-body">
+                  <div class="soap-liquid-final"></div>
+                  <div class="soap-label-final">
+                    <span>Liquid</span>
+                    <strong>SOAP</strong>
+                    <small>Handmade ✨</small>
+                  </div>
+                </div>
+                <div class="dispenser-base"></div>
+              </div>
+              <div class="soap-bubbles-final" id="soapBubblesFinal"></div>
+              <div class="sparkles" id="sparkles">
+                <span>✨</span><span>⭐</span><span>✨</span><span>💫</span><span>⭐</span>
+              </div>
+            </div>
+            <div class="final-props">
+              <div class="prop-badge">✅ Cleans Effectively</div>
+              <div class="prop-badge">🌿 Eco-Friendly</div>
+              <div class="prop-badge">💆 Skin-Safe</div>
+              <div class="prop-badge">🧴 Ready to Use!</div>
+            </div>
+          </div>
+          <div class="reaction-equation glow-all">
+            <span class="eq-part">Oil + NaOH + Salts</span>
+            <span class="eq-arrow">🔥→</span>
+            <span class="eq-result glow-eq big-eq">🧴 Liquid Soap Ready!</span>
+          </div>
+        </div>
+
+      </div><!-- end lab-canvas -->
+
+      <!-- Navigation buttons -->
+      <div class="lab-controls">
+        <button class="lab-nav-btn" id="labPrev" onclick="labPrev()">← Previous</button>
+        <div class="lab-dots" id="labDots"></div>
+        <button class="lab-nav-btn lab-nav-next" id="labNext" onclick="labNext()">Next →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 4: FLOW DIAGRAM ===== -->
+  <section id="flowdiagram" class="section">
+    <div class="section-header reveal">
+      <span class="section-tag">Diagrams</span>
+      <h2>Process Flow & Block Diagram</h2>
+      <p>Visual representation of the liquid soap manufacturing process.</p>
+    </div>
+
+    <div class="diagram-grid">
+      <div class="diagram-card reveal" id="processFlowCard">
+        <div class="diagram-label">Process Flow Diagram</div>
+        <!-- SVG Recreation of Process Flow Diagram -->
+        <div class="diagram-img-wrap" id="pfd-wrap">
+          <svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" class="process-svg">
+            <!-- Title -->
+            <text x="400" y="35" text-anchor="middle" class="svg-title">Process Flow Diagram</text>
+            <!-- Ingredient cans left -->
+            <g class="svg-can" transform="translate(30,60)">
+              <rect x="0" y="0" width="44" height="54" rx="4" fill="#e55" stroke="#a22" stroke-width="2"/>
+              <ellipse cx="22" cy="0" rx="22" ry="8" fill="#c33"/>
+              <text x="54" y="30" class="svg-label">Oil</text>
+            </g>
+            <g class="svg-can" transform="translate(30,130)">
+              <rect x="0" y="0" width="44" height="54" rx="4" fill="#e55" stroke="#a22" stroke-width="2"/>
+              <ellipse cx="22" cy="0" rx="22" ry="8" fill="#c33"/>
+              <text x="54" y="30" class="svg-label">Dist. Water</text>
+            </g>
+            <g class="svg-can" transform="translate(30,200)">
+              <rect x="0" y="0" width="44" height="54" rx="4" fill="#e55" stroke="#a22" stroke-width="2"/>
+              <ellipse cx="22" cy="0" rx="22" ry="8" fill="#c33"/>
+              <text x="54" y="30" class="svg-label">Ethanol</text>
+            </g>
+            <!-- Arrow group 1 to Mixing1 -->
+            <line x1="74" y1="87" x2="240" y2="155" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <line x1="74" y1="157" x2="240" y2="165" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <line x1="74" y1="227" x2="240" y2="175" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <!-- Mixer 1 blender icon -->
+            <g transform="translate(230, 120)">
+              <rect x="0" y="0" width="60" height="80" rx="8" fill="#3498db" opacity="0.8"/>
+              <text x="30" y="30" text-anchor="middle" font-size="28">🥤</text>
+              <text x="30" y="65" text-anchor="middle" class="svg-node-label">Mixing</text>
+            </g>
+            <!-- Arrow mixing1 to heater -->
+            <line x1="290" y1="160" x2="390" y2="200" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <!-- Heater icon -->
+            <g transform="translate(380,165)">
+              <rect x="0" y="0" width="70" height="80" rx="8" fill="#e67e22" opacity="0.8"/>
+              <text x="35" y="32" text-anchor="middle" font-size="28">🔥</text>
+              <text x="35" y="65" text-anchor="middle" class="svg-node-label">Heating</text>
+            </g>
+            <!-- Arrow heater to cooling -->
+            <line x1="450" y1="205" x2="560" y2="100" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <!-- Cooling icon -->
+            <g transform="translate(550,60)">
+              <rect x="0" y="0" width="70" height="80" rx="8" fill="#1abc9c" opacity="0.8"/>
+              <text x="35" y="32" text-anchor="middle" font-size="28">❄️</text>
+              <text x="35" y="65" text-anchor="middle" class="svg-node-label">Cooling</text>
+            </g>
+            <!-- Arrow cooling to filtering -->
+            <line x1="585" y1="140" x2="585" y2="215" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <text x="600" y="195" class="svg-label">Filtering</text>
+            <!-- Filtering icon -->
+            <g transform="translate(550,220)">
+              <rect x="0" y="0" width="70" height="80" rx="8" fill="#9b59b6" opacity="0.8"/>
+              <text x="35" y="32" text-anchor="middle" font-size="28">🔽</text>
+              <text x="35" y="65" text-anchor="middle" class="svg-node-label">Filtering</text>
+            </g>
+            <!-- Arrow filter to soap -->
+            <line x1="585" y1="300" x2="585" y2="370" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <!-- Soap product -->
+            <g transform="translate(550,370)">
+              <rect x="0" y="0" width="70" height="70" rx="8" fill="#2ecc71" opacity="0.8"/>
+              <text x="35" y="30" text-anchor="middle" font-size="24">🧴</text>
+              <text x="35" y="55" text-anchor="middle" class="svg-node-label">Liq. Soap</text>
+            </g>
+            <!-- Bottom ingredient cans -->
+            <g class="svg-can" transform="translate(30,285)">
+              <rect x="0" y="0" width="44" height="54" rx="4" fill="#e55" stroke="#a22" stroke-width="2"/>
+              <ellipse cx="22" cy="0" rx="22" ry="8" fill="#c33"/>
+              <text x="54" y="30" class="svg-label">NaCl</text>
+            </g>
+            <g class="svg-can" transform="translate(30,350)">
+              <rect x="0" y="0" width="44" height="54" rx="4" fill="#e55" stroke="#a22" stroke-width="2"/>
+              <ellipse cx="22" cy="0" rx="22" ry="8" fill="#c33"/>
+              <text x="54" y="30" class="svg-label">NaOH</text>
+            </g>
+            <g class="svg-can" transform="translate(30,415)">
+              <rect x="0" y="0" width="44" height="54" rx="4" fill="#e55" stroke="#a22" stroke-width="2"/>
+              <ellipse cx="22" cy="0" rx="22" ry="8" fill="#c33"/>
+              <text x="54" y="30" class="svg-label">Na₂CO₃ / NaHCO₃</text>
+            </g>
+            <!-- Arrows to Mixing2 -->
+            <line x1="74" y1="312" x2="230" y2="295" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <line x1="74" y1="377" x2="230" y2="305" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <line x1="74" y1="442" x2="230" y2="315" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <!-- Mixer 2 -->
+            <g transform="translate(228,265)">
+              <rect x="0" y="0" width="60" height="80" rx="8" fill="#3498db" opacity="0.8"/>
+              <text x="30" y="30" text-anchor="middle" font-size="28">🥤</text>
+              <text x="30" y="65" text-anchor="middle" class="svg-node-label">Mixing</text>
+            </g>
+            <!-- Arrow mixing2 to heater -->
+            <line x1="288" y1="305" x2="390" y2="240" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+            <!-- Arrow defs -->
+            <defs>
+              <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#888"/>
+              </marker>
+            </defs>
+          </svg>
+        </div>
+        <button class="zoom-btn" onclick="openZoom('pfd')">🔍 Zoom In</button>
+      </div>
+
+      <div class="diagram-card reveal" id="blockDiagramCard">
+        <div class="diagram-label">Block Diagram</div>
+        <div class="diagram-img-wrap" id="bd-wrap">
+          <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" class="process-svg">
+            <text x="400" y="35" text-anchor="middle" class="svg-title">Block Diagram</text>
+            <!-- Top group boxes -->
+            <rect x="30" y="60" width="110" height="40" rx="6" class="svg-box"/>
+            <text x="85" y="85" text-anchor="middle" class="svg-box-label">Oil</text>
+            <rect x="30" y="115" width="110" height="40" rx="6" class="svg-box"/>
+            <text x="85" y="140" text-anchor="middle" class="svg-box-label">Dist. Water</text>
+            <rect x="30" y="170" width="110" height="40" rx="6" class="svg-box"/>
+            <text x="85" y="195" text-anchor="middle" class="svg-box-label">Ethanol</text>
+            <!-- Mixture box -->
+            <rect x="230" y="110" width="110" height="40" rx="6" class="svg-box svg-box-blue"/>
+            <text x="285" y="135" text-anchor="middle" class="svg-box-label">Mixture</text>
+            <!-- Arrows to mixture -->
+            <line x1="140" y1="80" x2="230" y2="120" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <line x1="140" y1="135" x2="230" y2="130" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <line x1="140" y1="190" x2="230" y2="140" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <!-- Heater -->
+            <rect x="430" y="110" width="110" height="40" rx="6" class="svg-box svg-box-orange"/>
+            <text x="485" y="135" text-anchor="middle" class="svg-box-label">Heater</text>
+            <line x1="340" y1="130" x2="430" y2="130" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <!-- Cooling -->
+            <rect x="620" y="110" width="110" height="40" rx="6" class="svg-box svg-box-teal"/>
+            <text x="675" y="135" text-anchor="middle" class="svg-box-label">Cooling</text>
+            <line x1="540" y1="130" x2="620" y2="130" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <!-- Bottom group -->
+            <rect x="30" y="285" width="110" height="40" rx="6" class="svg-box"/>
+            <text x="85" y="310" text-anchor="middle" class="svg-box-label">NaCl</text>
+            <rect x="30" y="340" width="110" height="40" rx="6" class="svg-box"/>
+            <text x="85" y="365" text-anchor="middle" class="svg-box-label">NaOH</text>
+            <rect x="30" y="395" width="110" height="40" rx="6" class="svg-box"/>
+            <text x="85" y="420" text-anchor="middle" class="svg-box-label">NaHCO₃</text>
+            <rect x="30" y="450" width="110" height="40" rx="6" class="svg-box"/>
+            <text x="85" y="475" text-anchor="middle" class="svg-box-label">Na₂CO₃</text>
+            <!-- Mixing box -->
+            <rect x="230" y="340" width="110" height="40" rx="6" class="svg-box svg-box-blue"/>
+            <text x="285" y="365" text-anchor="middle" class="svg-box-label">Mixing</text>
+            <!-- Arrows to mixing -->
+            <line x1="140" y1="305" x2="230" y2="350" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <line x1="140" y1="360" x2="230" y2="360" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <line x1="140" y1="415" x2="230" y2="370" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <line x1="140" y1="470" x2="230" y2="375" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <!-- Mixing to Heater curve -->
+            <path d="M340,360 Q390,360 390,280 Q390,200 430,155" stroke="#aaa" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+            <!-- Filtration -->
+            <rect x="620" y="260" width="110" height="40" rx="6" class="svg-box svg-box-purple"/>
+            <text x="675" y="285" text-anchor="middle" class="svg-box-label">Filtration</text>
+            <line x1="675" y1="150" x2="675" y2="260" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <!-- Liq Soap -->
+            <rect x="620" y="380" width="110" height="40" rx="6" class="svg-box svg-box-green"/>
+            <text x="675" y="405" text-anchor="middle" class="svg-box-label">Liq. Soap</text>
+            <line x1="675" y1="300" x2="675" y2="380" stroke="#aaa" stroke-width="2" marker-end="url(#arrow2)"/>
+            <!-- Arrow defs -->
+            <defs>
+              <marker id="arrow2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#aaa"/>
+              </marker>
+            </defs>
+          </svg>
+        </div>
+        <button class="zoom-btn" onclick="openZoom('bd')">🔍 Zoom In</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== SECTION 6: ADVANTAGES / DISADVANTAGES / APPLICATIONS ===== -->
+  <section id="advantages" class="section">
+    <div class="section-header reveal">
+      <span class="section-tag">Analysis</span>
+      <h2>Advantages, Disadvantages & Applications</h2>
+      <p>A balanced scientific assessment of our liquid soap formulation.</p>
+    </div>
+
+    <div class="analysis-grid">
+      <div class="analysis-card adv-card reveal">
+        <div class="analysis-icon">✅</div>
+        <h3>Advantages</h3>
+        <ul>
+          <li>
+            <span class="list-icon">🧹</span>
+            <div><strong>Effective Cleaning</strong><br/>Removes dirt, grease, and bacteria efficiently due to amphiphilic soap molecules</div>
+          </li>
+          <li>
+            <span class="list-icon">🌿</span>
+            <div><strong>Eco-Friendly</strong><br/>Uses biodegradable ingredients; minimal environmental footprint compared to synthetic detergents</div>
+          </li>
+          <li>
+            <span class="list-icon">💆</span>
+            <div><strong>Skin-Friendly</strong><br/>Castor oil provides natural moisturization; gentle on skin compared to commercial soaps</div>
+          </li>
+          <li>
+            <span class="list-icon">💰</span>
+            <div><strong>Cost-Effective</strong><br/>Inexpensive raw materials, easy to scale for home or industrial use</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="analysis-card dis-card reveal" style="--delay:0.15s">
+        <div class="analysis-icon">⚠️</div>
+        <h3>Disadvantages</h3>
+        <ul>
+          <li>
+            <span class="list-icon">☠️</span>
+            <div><strong>NaOH Hazard</strong><br/>Sodium hydroxide is highly caustic — improper handling causes severe chemical burns</div>
+          </li>
+          <li>
+            <span class="list-icon">⏰</span>
+            <div><strong>Time-Consuming</strong><br/>Full saponification takes extended heating and curing time, unlike commercial production</div>
+          </li>
+          <li>
+            <span class="list-icon">📏</span>
+            <div><strong>Precision Required</strong><br/>Incorrect ratios can result in a harsh or ineffective product; requires careful measurement</div>
+          </li>
+          <li>
+            <span class="list-icon">🌡️</span>
+            <div><strong>Temperature Sensitive</strong><br/>Reaction quality depends heavily on maintaining correct temperature range</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="analysis-card app-card reveal" style="--delay:0.3s">
+        <div class="analysis-icon">🚀</div>
+        <h3>Applications</h3>
+        <ul>
+          <li>
+            <span class="list-icon">🏠</span>
+            <div><strong>Household Cleaning</strong><br/>Dishes, laundry, floor mopping, surface disinfection</div>
+          </li>
+          <li>
+            <span class="list-icon">🛁</span>
+            <div><strong>Personal Hygiene</strong><br/>Hand wash, body wash, face cleanser, baby soap</div>
+          </li>
+          <li>
+            <span class="list-icon">🏭</span>
+            <div><strong>Industrial Use</strong><br/>Degreasing machinery, cleaning workshops, food processing sanitation</div>
+          </li>
+          <li>
+            <span class="list-icon">🏥</span>
+            <div><strong>Healthcare</strong><br/>Antiseptic hand wash in clinics and hospitals; wound cleaning</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 7: QUIZ ===== -->
+  <section id="quiz" class="section">
+    <div class="section-header reveal">
+      <span class="section-tag">Knowledge Check</span>
+      <h2>Chemistry Quiz</h2>
+      <p>Test your understanding of liquid soap chemistry!</p>
+    </div>
+
+    <div class="quiz-container reveal">
+      <div class="quiz-progress-bar">
+        <div class="quiz-progress-fill" id="quizProgress"></div>
+      </div>
+      <div class="quiz-counter" id="quizCounter">Question 1 of 6</div>
+
+      <div id="quizArea">
+        <!-- Rendered by JS -->
+      </div>
+
+      <div class="quiz-result" id="quizResult" style="display:none">
+        <div class="result-icon" id="resultIcon">🎉</div>
+        <h3 id="resultTitle">Quiz Complete!</h3>
+        <p id="resultScore"></p>
+        <p id="resultMsg"></p>
+        <button class="btn-primary" onclick="restartQuiz()">Try Again</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 8: FEEDBACK ===== -->
+  <section id="feedback" class="section">
+    <div class="section-header reveal">
+      <span class="section-tag">Your Opinion Matters</span>
+      <h2>Suggestions & Feedback</h2>
+      <p>Help us improve — share your thoughts about this project.</p>
+    </div>
+
+    <div class="feedback-wrapper reveal">
+      <div class="feedback-form-card">
+        <div class="star-rating">
+          <p>Rate this project:</p>
+          <div class="stars" id="stars">
+            <span class="star" data-val="1">★</span>
+            <span class="star" data-val="2">★</span>
+            <span class="star" data-val="3">★</span>
+            <span class="star" data-val="4">★</span>
+            <span class="star" data-val="5">★</span>
+          </div>
+          <p class="star-label" id="starLabel">Click to rate</p>
+        </div>
+
+        <form id="feedbackForm">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" id="fname" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="femail" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label>Your Message / Suggestions</label>
+            <textarea id="fmessage" placeholder="Share your feedback, suggestions, or questions..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">
+            <span id="submitText">Send Feedback ✉️</span>
+          </button>
+        </form>
+
+        <div class="success-msg" id="successMsg" style="display:none">
+          <div class="success-icon">🎊</div>
+          <h3>Thank You!</h3>
+          <p>Your feedback has been received. We appreciate your input!</p>
+          <button class="btn-ghost" onclick="resetForm()">Submit Another</button>
+        </div>
+      </div>
+
+      <div class="feedback-info">
+        <div class="info-card">
+          <div class="info-icon">📌</div>
+          <h4>Project Title</h4>
+          <p>Liquid Soap — Smart, Safe & Scientific Cleaning</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🏫</div>
+          <h4>Institution</h4>
+          <p>MIT Academy of Engineering - CHEMICAL PROTO 2026</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">👥</div>
+          <h4>Team Members</h4>
+          <p>Samiksha · Sakshi · Deesha · Saloni</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">🧪 LiquidSoap Project</div>
+      <p>Chemistry Practical Project 2026 · Made with 💙 by Team LiquidSoap</p>
+      <p class="footer-small">Samiksha Athekar · Sakshi Pawar · Deesha Pati · Saloni Yadav</p>
+    </div>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+  <div class="modal-overlay" id="videoModal" onclick="closeVideo(event)">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeVideoBtn()">✕</button>
+      <div class="modal-video">
+        <iframe id="videoFrame" src="" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ZOOM MODAL -->
+  <div class="modal-overlay" id="zoomModal" onclick="closeZoom(event)">
+    <div class="modal-box modal-large">
+      <button class="modal-close" onclick="document.getElementById('zoomModal').classList.remove('active')">✕</button>
+      <div id="zoomContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
